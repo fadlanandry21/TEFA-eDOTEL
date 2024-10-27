@@ -12,7 +12,7 @@ body {
 }
 .container-img {
   height: 100vh;
-  background-image: url(../asset/img/bg-img.JPG);
+  background-image: url(./asset/img/bg-img.JPG/);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
