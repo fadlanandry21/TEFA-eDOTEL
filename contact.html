@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="contact.css" />
+
+    <!-- sc icon -->
+    <link rel="shorcut icon" href="asset/img/logo-esemkasa.png" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="asset/img/logo-esemkasa.png"
+            alt="Logo"
+            class="img-fluid"
+            width="70px"
+          />
+          <span class="me-4" style="font-size: 23px; font-weight: 500">
+            edOTEL Kusuma</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+          style="justify-content: center; margin-right: 3%"
+        >
+          <div class="navbar-nav" style="gap: 70px">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link active" href="index.html">About Us</a>
+            <a class="nav-link active" href="index.html">Room</a>
+            <a class="nav-link active" href="index.html">Gallery</a>
+          </div>
+        </div>
+        <div class="kontak me-5">
+          <button type="button" class="btn btn-dark">Contact Us</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header -->
+    <header
+      class="text-white text-center py-5"
+      style="background-color: #474747"
+    >
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="lead">Berikan Kritik dan saran Anda disini</p>
+      </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="row">
+          <!-- Contact Information -->
+          <div class="col-md-4 mb-4">
+            <h3 style="font-weight: bold">Contact Information</h3>
+            <div class="mt-4">
+              <div class="icon d-flex mb-3">
+                <i class="fas fa-map-marker-alt fa-2x me-3"></i>
+                <div>
+                  <h5>Alamat Kami</h5>
+                  <p>
+                    SMK N 1 Banyuwangi, Jl. Wijaya Kusuma No.46, Lingkungan
+                    Cuking Rw., Mojopanggung, Kec. Giri, Kabupaten Banyuwangi,
+                    Jawa Timur 68425
+                  </p>
+                </div>
+              </div>
+              <div class="icon d-flex mb-3">
+                <i class="fas fa-phone fa-2x me-3"></i>
+                <div>
+                  <h5>Telepon</h5>
+                  <p>(0333) 4460381</p>
+                </div>
+              </div>
+              <div class="icon d-flex mb-3">
+                <i class="fas fa-envelope fa-2x me-3"></i>
+                <div>
+                  <h5>Email</h5>
+                  <p>rsvedotelkusuma@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-md-8">
+            <form>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label
+                    for="name"
+                    class="form-label"
+                    style="font-weight: 500; font-size: 20px"
+                    >Your Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Add Your Name Here"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label
+                    for="email"
+                    class="form-label"
+                    style="font-weight: 500; font-size: 20px"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Add Your Email Here"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label
+                  for="subject"
+                  class="form-label"
+                  style="font-weight: 500; font-size: 19px"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Add Your Subject Here"
+                  id="subject"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="message"
+                  class="form-label"
+                  style="font-weight: 500; font-size: 20px"
+                  >Message</label
+                >
+                <textarea
+                  placeholder="hotel ini sangat nyaman!"
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="row mt-5">
+          <div class="col-12" style="margin-top: 30px">
+            <h3 style="font-size: 40px" class="mb-4">Find Us</h3>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.9097601693197!2d114.34815327431332!3d-8.211829882394682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd14545ed81e33d%3A0x6bfc23aaf00b3d95!2sEdotel%20Kusuma!5e0!3m2!1sen!2sid!4v1730006416897!5m2!1sen!2sid"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">&copy; 2024 Your Company. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+  <!-- js -->
+  <script src="main.js"></script>
+</html>
